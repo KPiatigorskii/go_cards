@@ -19,8 +19,8 @@ jobs:
       with:
         go-version: 1.17
 
-    - name: Build app
-      run: go mod init 
+    # - name: Build app
+    #   run: go mod init 
     - name: Run tests
       run: go test -v deck_test.go    
 
