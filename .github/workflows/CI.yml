@@ -21,8 +21,8 @@ jobs:
 
     - name: Build app
       run: |                         
+        go mod init Card_Game_With_Go
         go build
-        go mod init Card_Game_With_Go 
     - name: Run tests
       run: go test -v deck_test.go    
 
